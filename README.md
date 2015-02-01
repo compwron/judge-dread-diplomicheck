@@ -1,6 +1,6 @@
 # Judge::Dread::Diplomicheck
 
-TODO: Write a gem description
+Inspired by https://github.com/ccraciun/jsDip and based on http://web.inter.nl.net/users/L.B.Kruijswijk/#6.A
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Dunno yet
 
 ## Contributing
 
