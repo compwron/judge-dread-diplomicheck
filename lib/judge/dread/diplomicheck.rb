@@ -1,4 +1,4 @@
-require "judge/dread/diplomicheck/version"
+require 'judge/dread/diplomicheck/version'
 
 module Judge
   module Dread
