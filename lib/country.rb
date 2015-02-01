@@ -1,6 +1,6 @@
 module Country
   ALL = [
     England = 'England',
-    Germany = 'Germany'
+    Germany = 'Germany',
   ]
 end

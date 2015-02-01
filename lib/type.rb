@@ -1,6 +1,6 @@
 module Type
   ALL = [
     Fleet = 'fleet',
-    Army = 'Army'
+    Army = 'army',
   ]
 end

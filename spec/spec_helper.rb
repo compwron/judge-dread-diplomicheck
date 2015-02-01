@@ -1,6 +1,7 @@
 require_relative '../lib/diplomijudge'
 require_relative '../lib/country'
 require_relative '../lib/error'
+require_relative '../lib/place'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
