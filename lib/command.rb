@@ -74,12 +74,8 @@ class Command
   end
 
   def == other
-  	# [:type, :origin, :destination, :convoy, :valid].map {|m|
-  	# 	other.eval(m) == "@#{m}".to_sym
-  	# }.all?
-  	other.type == @type &&
-  	  other.origin == @origin &&
-  	  other.destination == @destination &&
-  	  other.convoy == @convoy
+  	[:type, :origin, :destination, :convoy, :valid].map {|m|
+  		other.send(m.to_s) == eval("@#{m}")
+  	}.all?
   end
 end
